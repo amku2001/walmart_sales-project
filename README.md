@@ -1,8 +1,7 @@
 # walmart_sales-project
 Project Overview
-Project Pipeline
-
-This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data. We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
+This project is sql based with little bit of python for cleaning dataset. I have used sql to analyse dataset of a company for business use like   growth, trends, tracking and monitoring the goods and services of company.
+I got clarity in sql and how to write , read sql queries for analysis and also gained fundamental knowledge in python for data science
 
 Project Steps
 1. Set Up the Environment
@@ -19,7 +18,7 @@ Dataset Link: Walmart Sales Dataset
 Storage: Save the data in the data/ folder for easy reference and access.
 4. Install Required Libraries and Load Data
 Libraries: Install necessary Python libraries using:
-pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
+pip install pandas numpy sqlalchemy mysql-connector-python psycopg2(postgres connector)
 Loading Data: Read the data into a Pandas DataFrame for initial analysis and transformations.
 5. Explore the Data
 Goal: Conduct an initial data exploration to understand data distribution, check column names, types, and identify potential issues.
@@ -75,8 +74,11 @@ Results and Insights
 This section will include your analysis findings:
 
 Sales Insights: Key categories, branches with highest sales, and preferred payment methods.
+
 Profitability: Insights into the most profitable product categories and locations.
+
 Customer Behavior: Trends in ratings, payment preferences, and peak shopping hours.
+
 Future Enhancements
 Possible extensions to this project:
 
